@@ -1,0 +1,5 @@
+if(EXISTS "/Users/dmitrykaraulov/Downloads/stack1/build/test_stack_f8b5b324_tests.cmake")
+  include("/Users/dmitrykaraulov/Downloads/stack1/build/test_stack_f8b5b324_tests.cmake")
+else()
+  add_test(test_stack_NOT_BUILT test_stack_NOT_BUILT)
+endif()

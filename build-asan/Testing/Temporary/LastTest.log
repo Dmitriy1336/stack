@@ -1,0 +1,19 @@
+Start testing: Nov 22 14:49 MSK
+----------------------------------------------------------
+1/37 Testing: Constness.Test
+1/37 Test: Constness.Test
+Command: "/Users/dmitrykaraulov/Downloads/stack1/build-asan/test_stack" "--gtest_filter=Constness.Test" "--gtest_also_run_disabled_tests"
+Directory: /Users/dmitrykaraulov/Downloads/stack1/build-asan
+"Constness.Test" start time: Nov 22 14:49 MSK
+Output:
+----------------------------------------------------------
+==5133==AddressSanitizer: detect_leaks is not supported on this platform.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"Constness.Test" end time: Nov 22 14:49 MSK
+"Constness.Test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 22 14:49 MSK

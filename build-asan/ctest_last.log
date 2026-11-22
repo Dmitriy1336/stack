@@ -1,0 +1,13 @@
+Test project /Users/dmitrykaraulov/Downloads/stack1/build-asan
+      Start  1: Constness.Test
+ 1/37 Test  #1: Constness.Test ...........................Subprocess aborted***Exception:   0.02 sec
+==5133==AddressSanitizer: detect_leaks is not supported on this platform.
+
+
+0% tests passed[0;0m, [0;31m1 tests failed[0;0m out of 1
+
+Total Test time (real) =   0.02 sec
+
+The following tests FAILED:
+	[0;31m  1 - Constness.Test (Subprocess aborted)[0;0m
+Errors while running CTest
